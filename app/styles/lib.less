@@ -1,0 +1,32 @@
+// Standart reusable elements
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.jc {
+  &-center {
+    justify-content: center;
+  }
+  &-between {
+    justify-content: space-between;
+  }
+  &-around {
+    justify-content: space-around;
+  }
+  &-end {
+    justify-content: flex-end;
+  }
+}
+
+.ac {
+  &-center {
+    align-content: center;
+  }
+}
+
+// Debug grid
+.debug-grid {
+  .debug(rgba(255,0,0,0.1), 1px dashed rgba(255,0,0,0.3));
+}
