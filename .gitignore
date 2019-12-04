@@ -5,6 +5,7 @@ bower_components
 # compiled output
 /dist
 /.tmp
+/app/styles/smart-grid.less
 
 # System Files
 .DS_Store
